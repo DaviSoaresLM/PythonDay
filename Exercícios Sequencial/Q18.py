@@ -11,3 +11,4 @@ velocidade_Internet = float(input("Digite a velocidade da internet em Mbs: "))
 tempo_Download = arquivo / (velocidade_Internet / 8)
 
 print(f"O tempo aproximado de download é {tempo_Download:.1f} minutos")
+
