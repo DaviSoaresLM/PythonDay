@@ -26,13 +26,17 @@ inss = salario_Bruto * (8 / 100)
 #Valor pago ao Sindicato = 5%
 sindicato = salario_Bruto * (5 / 100)
 
+#Valor Descontos
+desconto = imposto_Renda + inss + sindicato
+
 #Salário Líquido
-salario_Liquido = salario_Bruto - imposto_Renda - inss - sindicato
+salario_Liquido = salario_Bruto - desconto
 
 print(f"+ Salário bruto: R$ {salario_Bruto:.2f}")
 print(f"- IR: R$ {imposto_Renda:.2f}")
 print(f"- INSS: R$ {inss:.2f}")
 print(f"- Sindicato: R$ {sindicato:.2f}")
 print(f"= Salário Líquido: R$ {salario_Liquido:.2f}")
+
 
 
