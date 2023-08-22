@@ -11,7 +11,7 @@ aluno4 = input("Digite o nome do aluno:")
 alunos = [aluno1,aluno2,aluno3,aluno4]
 
 #Sorteando o aluno
-aluno_Escolhido =  random.choice(alunos)
+aluno_Escolhido = random.choice(alunos)
 
 #Resultado
 print(f"O aluno escolhido para apagar o quadro é: '{aluno_Escolhido}'")
