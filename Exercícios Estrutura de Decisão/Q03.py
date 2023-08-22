@@ -14,4 +14,3 @@ else:
     print("Sexo inválido, tente novamente com M para masculino e F para feminino")
 
 
-
