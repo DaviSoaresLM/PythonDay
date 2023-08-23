@@ -11,5 +11,6 @@ n3 = int(input("Digite um número:"))
 maior = max(n1,n2,n3)
 #Determinando o menor número dos 3:
 menor = min(n1,n2,n3)
+
 #Resultado
 print("O maior número é {} e o menor é {}".format(maior, menor))

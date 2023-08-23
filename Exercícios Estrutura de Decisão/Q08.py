@@ -6,7 +6,7 @@ produto1 = float(input("Digite o valor do primeiro produto:"))
 produto2 = float(input("Digite o valor do segundo produto:"))
 produto3 = float(input("Digite o valor do terceiro produto:"))
 
-#Determinando o valor mínimo 
+#Determinando o valor mínimo
 produto_Barato = min(produto1,produto2,produto3)
 
 #Verificar qual é o produto mais barato:
@@ -17,4 +17,5 @@ elif produto_Barato == produto2 :
 else:
     produto_Escolhido = "Produto 3"
 
+#Resultado
 print("Compre o {} pois é o mais barato.".format(produto_Escolhido))

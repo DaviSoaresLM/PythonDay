@@ -13,4 +13,5 @@ numeros = [n1,n2,n3]
 #Ordenando a lista em ordem decrescente
 ordem_Decrescente = sorted(numeros, reverse=True)
 
+#Resultado
 print("A ordem decrescente dos números é: {}".format(ordem_Decrescente))
