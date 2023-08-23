@@ -6,5 +6,5 @@ nome = input("Digite seu nome:")
 #Utilizando a função 'str.replace() para substituir os caracteres por eles mesmos e quebrar linha
 nome_Vertical = nome.replace("","\n")[1:-1]
 
-#Imprimindo o resultado
+#Imprimindo o f
 print(nome_Vertical)
