@@ -6,6 +6,8 @@ n2 = int(input("Digite um número:"))
 
 #Verificando qual o maior número:
 if n1 > n2 :
-    print("O maior número é: {}".format(n1))
+    print(f"O maior número é: {n1}")
+elif n1 == n2:
+    print("Ambos são iguais")
 else:
-    print("O maior número é: {}".format(n2))
+    print(f"O maior número é: {n2}")
