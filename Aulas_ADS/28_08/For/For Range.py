@@ -22,5 +22,11 @@ for x in range(6):
 else:
     print("Testando")'''
 
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!",x)
+
+
 
 
