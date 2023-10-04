@@ -17,10 +17,10 @@ comprimento_Igual = quantidade_String1 == quantidade_String2
 conteudo_Igual = string1 == string2
 
 #Imprimindo o conteúdo:
-print('Tamanho de "{}" é: "{}"'.format(string1, quantidade_String1))
-print('Tamanho de "{}" é: "{}"'.format(string2, quantidade_String2))
+print(f"O tamanho de '{string1}' é '{quantidade_String1}'")
+print(f"Tamanho de '{string2}' é '{quantidade_String2}'")
 
-#Testando se possuam o mesmo comprimento
+#Testando se possuem o mesmo comprimento
 if comprimento_Igual:
     print("As duas strings são de tamanhos iguais")
 else:

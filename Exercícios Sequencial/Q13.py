@@ -8,10 +8,10 @@ altura = float(input("Digite sua altura:"))
 
 genero = input("Digite seu gênero ( M se for masculino e F se for feminino):")
 
-if genero == 'M' or 'm':
+if genero.upper() == 'M':
     peso_Ideal = (72.7 * altura) - 58
 
-elif genero == 'F' or 'f':
+elif genero.upper() == 'F':
     peso_Ideal = (62.1 * altura) - 44.7
 
 else:

@@ -14,4 +14,4 @@ numeros = [n1,n2,n3]
 ordem_Decrescente = sorted(numeros, reverse=True)
 
 #Resultado
-print("A ordem decrescente dos números é: {}".format(ordem_Decrescente))
+print(f"A ordem decrescente dos números é: {ordem_Decrescente}")
